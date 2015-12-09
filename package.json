@@ -1,0 +1,24 @@
+{
+  "name": "capture-window",
+  "version": "0.1.0",
+  "description": "",
+  "main": "application.js",
+  "scripts": {
+    "start": "electron application.js"
+  },
+  "dependencies": {
+    "electron-prebuilt": "^0.35.4",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperGeekJake/capture-window.git"
+  },
+  "author": "Jacob Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperGeekJake/capture-window/issues"
+  },
+  "homepage": "https://github.com/SuperGeekJake/capture-window#readme"
+}

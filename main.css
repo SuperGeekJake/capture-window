@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+}
+
+body {
+  color: #333;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  /*border: 1px solid red;*/
+}
+
+.title-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 30px;
+  background: #333;
+  color: #fff;
+  font-size: 1.2em;
+  line-height: 30px;
+  text-align: center;
+  -webkit-app-region: drag;
+}
+
+.window-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.info-bar {
+  display: block;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  line-height: 1;
+}
+
+#dimensions {}
+
+#reset {
+  color: #333;
+  text-decoration: none;
+}

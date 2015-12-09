@@ -32,7 +32,7 @@ app.on('ready', function() {
     height: 540,
     center: true,
     resizable: true,
-    frame: false,
+    frame: false//,
     // transparent: true
   });
 

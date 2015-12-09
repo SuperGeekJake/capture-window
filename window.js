@@ -35,3 +35,19 @@ $dimensionsContainer.keyup(function (event) {
 $('#reset').click(function () {
 	win.setSize(960, 540);
 });
+
+$('.minimize').click(function () {
+	win.minimize();
+});
+
+$('.maximize').click(function () {
+	if (win.isMaximized()) {
+		win.unmaximize();
+	} else {
+		win.maximize();
+	}
+});
+
+$('.close').click(function () {
+	win.close();
+});

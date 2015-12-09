@@ -23,7 +23,7 @@ body {
 }
 
 .title-bar {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -34,20 +34,39 @@ body {
   font-size: 1.2em;
   line-height: 30px;
   text-align: center;
+}
+
+.drag-bar {
+  width: calc(100% - 75px);
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*background: rgba(255, 0, 0, 0.5);*/
   -webkit-app-region: drag;
+  z-index: 100;
 }
 
 .window-controls {
+  width: 75px;
+  height: 30px;
   position: absolute;
   top: 0;
   right: 0;
+  color: #fff;
+  /*background: rgba(0,0,255,0.5);*/
+}
+
+.control {
+  cursor: pointer;
 }
 
 .info-bar {
   display: block;
-  position: absolute;
-  left: 5px;
-  bottom: 5px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   line-height: 1;
 }
 

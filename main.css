@@ -24,6 +24,10 @@ body {
   background: rgb(0,200,0);
 }
 
+.material-icons {
+  font-size: inherit;
+}
+
 .title-bar {
   position: fixed;
   top: 0;
@@ -37,7 +41,7 @@ body {
 }
 
 .drag-bar {
-  width: calc(100% - 75px);
+  width: calc(100% - 86px);
   height: 30px;
   position: absolute;
   top: 0;
@@ -47,11 +51,12 @@ body {
 }
 
 .window-controls {
-  width: 75px;
+  width: 86px;
   height: 30px;
   position: absolute;
   top: 0;
   right: 0;
+  font-size: 24px;
 }
 
 .control {
@@ -60,16 +65,25 @@ body {
 
 .info-bar {
   display: block;
+  padding: 0 5px;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
   line-height: 1;
+  font-size: 20px;
+  line-height: 27px;
 }
 
 #dimensions {}
 
 #reset {
   color: #fff;
+  font-size: 20px;
   text-decoration: none;
+}
+
+#reset i {
+  position: relative;
+  top: 4px;
 }
